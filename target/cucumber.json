@@ -1,0 +1,355 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I entered correct username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 62
+                }
+              ],
+              "location": "Stepdef_swag.Cart_swag.i_entered_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-15T14:58:46.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 852000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdef_swag.Hooks_swag.steup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Adding The product to cart",
+        "description": "",
+        "id": "from-swag-lab-add-product-to-cart;adding-the-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdef_swag.Hooks_swag.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 265000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to select product \"Sauce Labs Backpack\" to add to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Stepdef_swag.Cart_swag.i_want_to_select_product_to_add_to_cart(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Basket item number should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "Stepdef_swag.Cart_swag.basket_item_number_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "from Swag Lab add product to cart",
+    "description": "",
+    "id": "from-swag-lab-add-product-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/AddCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 333000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-15T14:58:48.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 562000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdef_swag.Hooks_swag.steup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login into SwagLabs positive scenario",
+        "description": "",
+        "id": "swag-labs-login-scenario;login-into-swaglabs-positive-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdef_swag.Hooks_swag.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 269000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I entered correct username and password",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_entered_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land home page with title \"Swag Labs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Swag Labs\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Stepdef_swag.LoginstepDef.i_should_land_home_page_with_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-15T14:58:50.195Z",
+        "before": [
+          {
+            "result": {
+              "duration": 587000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdef_swag.Hooks_swag.steup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login into SwagLabs negative scenario",
+        "description": "",
+        "id": "swag-labs-login-scenario;login-into-swaglabs-negative-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdef_swag.Hooks_swag.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I entered incorrect username and password",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_entered_incorrect_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Stepdef_swag.LoginstepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Stepdef_swag.LoginstepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Swag labs Login Scenario",
+    "description": "",
+    "id": "swag-labs-login-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Login_swag.feature",
+    "tags": []
+  }
+]
