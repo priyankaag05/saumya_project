@@ -13,7 +13,7 @@ public class Hooks_swag {
 	@Before
 	public void steup() {
 		
-		System.getProperty("WebDriver.Chrome.driver","ChromeDriver");
+		System.getProperty("WebDriver.Chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
 		
 	}
